@@ -1,0 +1,148 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    top: 70px;
+    position: relative;
+    margin-bottom: 220px;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -145px;
+}
+
+h1, h2, .skills-list {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+    background-color: #DBEBF4;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 130%;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 130%;
+
+}
+
+p {
+  line-height: 150%;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+.destinations1 {
+  list-style: none;
+}
+
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 20px;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
+
+figcaption {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.MyFacePic {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 1);
+  margin-top: 30px;
+}
+
+.skills-list {
+  text-align: center;
+  font-size: 50px;
+  line-height: 150%;
+  margin-bottom: 130px;
+}
+
+.projecttest {
+  margin: 30px 0;
+  padding: 50px;
+}
+
+.blue {
+  background-color: #DBEBF4;
+}
+
+.projecttest .button {
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 100px;
+}
+
+footer h2 {
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.right-alighnment {
+  text-align: right;
+}
+
+.empty {
+  width: 90px;
+  border-top: 1px solid black;
+  top: -5px;
+  position: relative;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
